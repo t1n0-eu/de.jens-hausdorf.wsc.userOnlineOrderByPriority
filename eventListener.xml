@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/eventListener.xsd">
+    <import>
+
+        <eventlistener name="sortUserOnlineList">
+            <eventclassname>wcf\system\box\UserOnlineListBoxController</eventclassname>
+            <eventname>readObjects</eventname>
+            <environment>user</environment>
+            <listenerclassname>wcf\system\event\listener\UserOnlineListSortByPriorityListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="sortStaffOnlineOptionBoxList">
+            <eventclassname>wcf\system\box\StaffOnlineListBoxController</eventclassname>
+            <eventname>readObjects</eventname>
+            <environment>user</environment>
+            <listenerclassname>wcf\system\event\listener\StaffOnlineListSortByPriorityListener</listenerclassname>
+         </eventlistener>
+
+
+        <eventlistener name="sortUserOnlineListInjectOption">
+            <eventclassname>wcf\system\option\OptionHandler</eventclassname>
+            <eventname>afterReadCache</eventname>
+            <environment>admin</environment>
+            <listenerclassname>wcf\system\event\listener\UserOnlineListInjectOptionListener</listenerclassname>
+        </eventlistener>
+
+    </import>
+    <delete>
+        <eventlistener name="sortStaffOnlineList" />
+    </delete>
+</data>

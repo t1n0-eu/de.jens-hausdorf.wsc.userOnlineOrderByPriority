@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+    <category name="wcf.user.usersOnline">
+        <item name="wcf.user.usersOnline.priority"><![CDATA[Gruppen-Priorität]]></item>
+    </category>
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.user.list.staff"><![CDATA[„Team-Mitglieder online“-Liste]]></item>
+        <item name="wcf.acp.option.staff_online_order_by_priority"><![CDATA[„Team-Mitglieder online“-Liste nach Gruppen-Priorität sortieren]]></item>
+        <item name="wcf.acp.option.staff_online_sort_order"><![CDATA[Reihenfolge der Prioritäten]]></item>
+    </category>
+</language>

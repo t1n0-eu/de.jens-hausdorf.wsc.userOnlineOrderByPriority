@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.jens-hausdorf.wsc.userOnlineOrderByPriority" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/package.xsd">
+    <packageinformation>
+        <packagename>User Online Sort by Priority</packagename>
+        <packagedescription>Sorts the user online listing box by priority.</packagedescription>
+        <packagedescription language="de">Sortiert die User-Online Darstellung nach Priorität des jeweiligen Rangs.</packagedescription>
+        <version>5.5.0</version>
+        <date>2023-11-10</date>
+    </packageinformation>
+
+    <authorinformation>
+        <author>Jens Hausdorf // jens1o | T1N0</author>
+        <authorurl>https://jens-hausdorf.de</authorurl>
+    </authorinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="5.5.16">com.woltlab.wcf</requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="7.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+    </excludedpackages>
+
+    <instructions type="install">
+        <instruction type="language" />
+        <instruction type="eventListener" />
+        <instruction type="file" />
+		<instruction type="option" />
+    </instructions>
+	
+	<instructions type="update" fromversion="2.0.0">
+        <instruction type="language" />
+        <instruction type="eventListener" />
+        <instruction type="file" />
+		<instruction type="option" />
+    </instructions>
+	
+	<instructions type="update" fromversion="2.0.1">
+        <instruction type="language" />
+        <instruction type="eventListener" />
+        <instruction type="file" />
+		<instruction type="option" />
+    </instructions>
+
+	 <instructions type="update" fromversion="2.0.2">
+        <instruction type="language" />
+        <instruction type="eventListener" />
+        <instruction type="file" />
+		<instruction type="option" />
+    </instructions>
+
+</package>
